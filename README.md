@@ -27,7 +27,7 @@ The download process is done by [yt-dlp](https://github.com/yt-dlp/yt-dlp), whic
 FREE of charge. <br /> 
 If you would like to donate, please send me a ko-fi or crypto. It's a great encouragement!
 
-[![ko-fi](https://github.com/Invary/IvyMediaDownloader/img/donation_kofi.png)](https://ko-fi.com/E1E7AC6QH)
+[![ko-fi](https://raw.githubusercontent.com/Invary/IvyMediaDownloader/main/img/donation_kofi.png)](https://ko-fi.com/E1E7AC6QH)
 
 - Address: 0xCbd4355d13CEA25D87F324E9f35A075adce6507c<br>
  -- Binance Smart Chain (BNB, USDT, BUSD etc.)<br>
