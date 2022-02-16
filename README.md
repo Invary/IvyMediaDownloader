@@ -9,6 +9,9 @@
 IvyMediaDownloader is a GUI software for downloading media files such as videos from Youtube and other online sites.
 The download process is done by [yt-dlp](https://github.com/yt-dlp/yt-dlp), which supports over 1000 sites.
 
+[![screen-shot](https://raw.githubusercontent.com/Invary/IvyMediaDownloader/main/img/ss01_400x331.png)](https://raw.githubusercontent.com/Invary/IvyMediaDownloader/main/img/ss01_400x331.png)
+
+
 <br />
 
 ## ⚡ Featurees
