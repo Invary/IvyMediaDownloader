@@ -5,7 +5,7 @@
 
 <br />
 
-## í ½í³ About
+## ğŸ“ About
 IvyMediaDownloader is a GUI software for downloading media files such as videos from Youtube and other online sites.
 The download process is done by [yt-dlp](https://github.com/yt-dlp/yt-dlp), which supports over 1000 sites.
 
@@ -39,15 +39,15 @@ If you would like to donate, please send me a ko-fi or crypto. It's a great enco
 
 <br />
 
-## í ½í» ï¸ Requirements
- í ½í·¸ Windows 7 or later<br>
- í ½í·¸ [yt-dlp](https://github.com/yt-dlp/yt-dlp)<br>
- í ½í·¸ [FFmpeg](https://ffmpeg.org/)<br>
- í ½í·¸ .NET 6.0 runtime library<br>
+## ğŸ› ï¸ Requirements
+ ğŸ—¸ Windows 7 or later<br>
+ ğŸ—¸ [yt-dlp](https://github.com/yt-dlp/yt-dlp)<br>
+ ğŸ—¸ [FFmpeg](https://ffmpeg.org/)<br>
+ ğŸ—¸ .NET 6.0 runtime library<br>
 
 <br />
 
-## í ½í³¥ Install
+## ğŸ“¥ Install
 1. [Download](https://github.com/Invary/IvyMediaDownloader/releases) latest version of IvyMediaDownloader
 2. Extract it to installation folder
 ###
@@ -63,21 +63,21 @@ If you would like to donate, please send me a ko-fi or crypto. It's a great enco
 
 
 
-## í ½í³ˆ Changelog
+## ğŸ“ˆ Changelog
 
 - [Ver100](https://github.com/Invary/IvyMediaDownloader/releases/tag/Ver100) 
 Initial release
 
 <br />
 
-## í ½í³© Suggestions and feedback
+## ğŸ“© Suggestions and feedback
 If you have any idea or suggestion, please add a github issue.
 
 <br />
 
 
 
-## í ½í² Thanks
+## ğŸ’ Thanks
 IvyMediaDownloader uses a some of tools and libraries. Thank you for these projects!
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
