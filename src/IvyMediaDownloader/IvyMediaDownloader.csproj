@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject>Invary.IvyMediaDownloader.Program</StartupObject>
+    <IsPublishable>False</IsPublishable>
+    <ErrorReport>none</ErrorReport>
+    <RootNamespace>Invary.IvyMediaDownloader</RootNamespace>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <Version>1.0.0</Version>
+    <Company>Invary</Company>
+    <Copyright>(c) Invary</Copyright>
+    <PackageProjectUrl>https://github.com/Invary/IvyMediaDownloader</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Invary/IvyMediaDownloader</RepositoryUrl>
+    <FileVersion></FileVersion>
+    <Authors>Invary</Authors>
+    <BaseOutputPath></BaseOutputPath>
+    <SignAssembly>False</SignAssembly>
+    <ApplicationIcon>image\icon_64x64.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="image\icon_64x64.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="YoutubeExplode" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="ResourceImage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ResourceImage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="ResourceSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ResourceSet.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Utility\ResourceUty.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ResourceUty.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ResourceImage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceImage.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Invary.IvyMediaDownloader</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ResourceSet.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceSet.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Invary.IvyMediaDownloader</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Utility\ResourceUty.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceUty.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Link="LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\README.md" Link="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

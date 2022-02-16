@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContextMenuStripAddNew_AddDownQue" xml:space="preserve">
+    <value>ダウンロードリストへ追加(停止)</value>
+  </data>
+  <data name="ContextMenuStripAddNew_AddDownQueStartNow" xml:space="preserve">
+    <value>ダウンロードリストへ追加(開始)</value>
+  </data>
+  <data name="ContextMenuStripAddNew_ClearSelected" xml:space="preserve">
+    <value>選択項目の削除</value>
+  </data>
+  <data name="ContextMenuStripMain_Args" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプション</value>
+  </data>
+  <data name="ContextMenuStripMain_ClearCompleted" xml:space="preserve">
+    <value>ダウンロードリスト済の非表示</value>
+  </data>
+  <data name="ContextMenuStripMain_CopyUrl" xml:space="preserve">
+    <value>URLのコピー</value>
+  </data>
+  <data name="ContextMenuStripMain_DeleteSelectedFromDB" xml:space="preserve">
+    <value>選択項目の削除(DBから削除)</value>
+  </data>
+  <data name="ContextMenuStripMain_DeleteSelectedFromView" xml:space="preserve">
+    <value>選択項目の削除(リストからのみ削除)</value>
+  </data>
+  <data name="ContextMenuStripMain_EditFolderName" xml:space="preserve">
+    <value>保存先の編集</value>
+  </data>
+  <data name="ContextMenuStripMain_KillSelected" xml:space="preserve">
+    <value>選択項目の強制終了</value>
+  </data>
+  <data name="ContextMenuStripMain_ResetCompletedFlag" xml:space="preserve">
+    <value>再ダウンロード</value>
+  </data>
+  <data name="ContextMenuStripMain_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="ContextMenuStripMain_SetCompletedFlag" xml:space="preserve">
+    <value>ダウンロード済として扱う</value>
+  </data>
+  <data name="ContextMenuStripMain_StartAll" xml:space="preserve">
+    <value>すべて開始</value>
+  </data>
+  <data name="ContextMenuStripMain_StartSelected" xml:space="preserve">
+    <value>選択項目を開始</value>
+  </data>
+  <data name="ContextMenuStripMain_StopAll" xml:space="preserve">
+    <value>すべて停止</value>
+  </data>
+  <data name="ContextMenuStripMain_StopSelected" xml:space="preserve">
+    <value>選択項目を停止</value>
+  </data>
+  <data name="ContextMenuStripSubscribedPrep_ClearSelected" xml:space="preserve">
+    <value>選択項目の削除</value>
+  </data>
+  <data name="ContextMenuStripSubscribedPrep_Subscribe" xml:space="preserve">
+    <value>購読</value>
+  </data>
+  <data name="ContextMenuStripSubscribed_AddDownQue" xml:space="preserve">
+    <value>ダウンロードリストへ追加</value>
+  </data>
+  <data name="ContextMenuStripSubscribed_Unsubscribe" xml:space="preserve">
+    <value>購読解除</value>
+  </data>
+  <data name="EditFolderNameForm_Description" xml:space="preserve">
+    <value>購読中のアイテムの場合はこの設定は無視されることがあります（購読設定が優先されます）</value>
+  </data>
+  <data name="EditFolderNameForm_Name" xml:space="preserve">
+    <value>保存先フォルダ名 (フルパスではありません)</value>
+  </data>
+  <data name="EditFolderNameForm_Title" xml:space="preserve">
+    <value>保存先の編集</value>
+  </data>
+  <data name="LabelFFmpeg_Error" xml:space="preserve">
+    <value>ERROR: ffmpeg.exe がありません</value>
+  </data>
+  <data name="LabelFFmpeg_Found" xml:space="preserve">
+    <value>ffmpeg.exe が見つかりました</value>
+  </data>
+  <data name="LabelYtDlp_Error" xml:space="preserve">
+    <value>ERROR: yt-dlp.exe がありません</value>
+  </data>
+  <data name="LabelYtDlp_Found" xml:space="preserve">
+    <value>yt-dlp.exe が見つかりました</value>
+  </data>
+  <data name="ListViewDownloadColumns_Arg" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプション</value>
+  </data>
+  <data name="ListViewDownloadColumns_ETA" xml:space="preserve">
+    <value>残り時間</value>
+  </data>
+  <data name="ListViewDownloadColumns_Folder" xml:space="preserve">
+    <value>保存先</value>
+  </data>
+  <data name="ListViewDownloadColumns_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewDownloadColumns_Progress" xml:space="preserve">
+    <value>進行状況</value>
+  </data>
+  <data name="ListViewDownloadColumns_Size" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="ListViewDownloadColumns_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="ListViewDownloadColumns_Status" xml:space="preserve">
+    <value>状況</value>
+  </data>
+  <data name="ListViewDownloadColumns_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="ListViewDownloadColumns_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Args" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプション</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Description" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="ListViewSubscribedColumns_FolderName" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="ListViewSubscribedColumns_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Status" xml:space="preserve">
+    <value>状況</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Args" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプション</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Description" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_FolderName" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Status" xml:space="preserve">
+    <value>状況</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewVideoInfo_Args" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプション</value>
+  </data>
+  <data name="ListViewVideoInfo_Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="ListViewVideoInfo_Duration" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="ListViewVideoInfo_Folder" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="ListViewVideoInfo_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ListViewVideoInfo_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewVideoInfo_Status" xml:space="preserve">
+    <value>状況</value>
+  </data>
+  <data name="ListViewVideoInfo_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="ListViewVideoInfo_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="MainMenu_Tooltips_ClearCompleted" xml:space="preserve">
+    <value>ダウンロードリスト済の非表示。 ダウンロード済のアイテムをリストから削除します。DBからは削除しません。ダウンロード済フラグを削除するまで再ダウンロードはできません。</value>
+  </data>
+  <data name="MainMenu_Tooltips_CopyUrl" xml:space="preserve">
+    <value>URLをクリップボードへコピーする</value>
+  </data>
+  <data name="MainMenu_Tooltips_DeleteSelectedFromDB" xml:space="preserve">
+    <value>選択項目の削除(DBから削除)。 リストとDBから削除します。未ダウンロードのアイテムの場合であっても、次回起動時にリストに表示されません。</value>
+  </data>
+  <data name="MainMenu_Tooltips_DeleteSelectedFromView" xml:space="preserve">
+    <value>選択項目の削除(リストからのみ削除)。 リストからのみ削除し、DBの情報は削除しません。未ダウンロードのアイテムの場合は、次回起動時には再びリストに表示されます。</value>
+  </data>
+  <data name="MainMenu_Tooltips_EditFolderName" xml:space="preserve">
+    <value>保存先の編集。 購読の設定で保存先が指定されている場合はそちらの設定が優先されます。</value>
+  </data>
+  <data name="MainMenu_Tooltips_KillSelected" xml:space="preserve">
+    <value>選択項目の強制終了。ダウンロードを強制終了します。</value>
+  </data>
+  <data name="MainMenu_Tooltips_ResetCompletedFlag" xml:space="preserve">
+    <value>再ダウンロード。 ダウンロード済フラグを削除し、再びダウンロード可能にします。</value>
+  </data>
+  <data name="MainMenu_Tooltips_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="MainMenu_Tooltips_SetCompletedFlag" xml:space="preserve">
+    <value>ダウンロード済として扱う。ダウンロード済みフラグをセットします。ダウンロードしたくないアイテムに設定するとダウンロードされなくなります。</value>
+  </data>
+  <data name="MainMenu_Tooltips_StartAll" xml:space="preserve">
+    <value>すべて開始。設定されているダウンロード最大数を超えている場合は、一時停止状態になります。</value>
+  </data>
+  <data name="MainMenu_Tooltips_StartSelected" xml:space="preserve">
+    <value>選択項目を開始。設定されているダウンロード最大数を超えている場合は、一時停止状態になります。</value>
+  </data>
+  <data name="MainMenu_Tooltips_StopAll" xml:space="preserve">
+    <value>すべて停止</value>
+  </data>
+  <data name="MainMenu_Tooltips_StopSelected" xml:space="preserve">
+    <value>選択項目の停止</value>
+  </data>
+  <data name="MessageBoxAlreadyExistAskRedownload" xml:space="preserve">
+    <value>ダウンロード済みのアイテムがあります。再ダウンロードしますか？</value>
+  </data>
+  <data name="MessageBoxAlreadyExistAskRedownloadTitle" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="MessageBoxAskDelete" xml:space="preserve">
+    <value>本当に削除しますか？</value>
+  </data>
+  <data name="MessageBoxAskDeleteTitle" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="MessageBoxInitSetting_Text" xml:space="preserve">
+    <value>設定ファイルの読み込みに失敗しました。設定初期化しますか？</value>
+  </data>
+  <data name="MessageBoxInitSetting_Title" xml:space="preserve">
+    <value>設定の初期化</value>
+  </data>
+  <data name="MessageBox_DupeExecute" xml:space="preserve">
+    <value>%APP% はすでに実行中です</value>
+  </data>
+  <data name="MessageBox_DupeExecuteTitle" xml:space="preserve">
+    <value>%APP%</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_AddNew" xml:space="preserve">
+    <value>新規追加</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_AddNew_Title" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプションの追加</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
+
+  <data name="SettingForm_ArgEditMenu_Title" xml:space="preserve">
+    <value>yt-dlpコマンドラインオプションの編集</value>
+  </data>
+
+  <data name="SettingForm_SelectYtdlpExe" xml:space="preserve">
+    <value>yt-dlp.exeの選択</value>
+  </data>
+  <data name="SettingForm_SelectWorkFolder" xml:space="preserve">
+    <value>保存先フォルダの選択</value>
+  </data>
+
+  <data name="Progress_AddNew_Text" xml:space="preserve">
+    <value>情報取得中...</value>
+  </data>
+
+  <data name="Progress_DetectClipboard_Text" xml:space="preserve">
+    <value>クリップボードの読み込み中...</value>
+  </data>
+
+  <data name="Progress_Subscribe_Text" xml:space="preserve">
+    <value>情報取得中...</value>
+  </data>
+  <data name="Progress_SubscribePrep_Text" xml:space="preserve">
+    <value>情報取得中...</value>
+  </data>
+
+  <data name="InvalidCommandlineOption" xml:space="preserve">
+    <value>コマンドラインオプションが正しくありません</value>
+  </data>
+
+</root>

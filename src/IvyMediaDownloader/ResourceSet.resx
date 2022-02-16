@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MessageBoxAlreadyExistAskRedownload" xml:space="preserve">
+    <value>Some videos have already been downloaded. Do you want to re-download them?</value>
+  </data>
+  <data name="MessageBoxAlreadyExistAskRedownloadTitle" xml:space="preserve">
+    <value>Already downloaded</value>
+  </data>
+  <data name="MessageBoxAskDelete" xml:space="preserve">
+    <value>Are you sure you want to delete it?</value>
+  </data>
+  <data name="MessageBoxAskDeleteTitle" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ListViewDownloadColumns_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListViewDownloadColumns_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewDownloadColumns_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ListViewDownloadColumns_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewDownloadColumns_Arg" xml:space="preserve">
+    <value>Arg</value>
+  </data>
+  <data name="ListViewDownloadColumns_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ListViewDownloadColumns_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="ListViewDownloadColumns_Progress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="ListViewDownloadColumns_ETA" xml:space="preserve">
+    <value>ETA</value>
+  </data>
+  <data name="ListViewDownloadColumns_Folder" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_FolderName" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Args" xml:space="preserve">
+    <value>yt-dlp arguments</value>
+  </data>
+  <data name="ListViewSubscribePrepColumns_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListViewSubscribedColumns_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewSubscribedColumns_FolderName" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Args" xml:space="preserve">
+    <value>yt-dlp arguments</value>
+  </data>
+  <data name="ListViewSubscribedColumns_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ListViewVideoInfo_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListViewVideoInfo_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ListViewVideoInfo_Folder" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="ListViewVideoInfo_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="ListViewVideoInfo_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ListViewVideoInfo_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ListViewVideoInfo_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="ListViewVideoInfo_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListViewVideoInfo_Args" xml:space="preserve">
+    <value>yt-dlp arguments</value>
+  </data>
+  <data name="MessageBox_DupeExecute" xml:space="preserve">
+    <value>%APP% is already executed!</value>
+  </data>
+  <data name="MessageBox_DupeExecuteTitle" xml:space="preserve">
+    <value>Exit %APP%</value>
+  </data>
+  <data name="LabelYtDlp_Found" xml:space="preserve">
+    <value>yt-dlp.exe is found.</value>
+  </data>
+  <data name="LabelYtDlp_Error" xml:space="preserve">
+    <value>ERROR: yt-dlp.exe is not exists !</value>
+  </data>
+  <data name="LabelFFmpeg_Found" xml:space="preserve">
+    <value>ffmpeg.exe is found.</value>
+  </data>
+  <data name="LabelFFmpeg_Error" xml:space="preserve">
+    <value>ERROR: ffmpeg.exe is not exists !</value>
+  </data>
+  <data name="ContextMenuStripAddNew_AddDownQue" xml:space="preserve">
+    <value>Add to download que</value>
+  </data>
+  <data name="ContextMenuStripAddNew_AddDownQueStartNow" xml:space="preserve">
+    <value>Add to download que and start</value>
+  </data>
+  <data name="ContextMenuStripAddNew_ClearSelected" xml:space="preserve">
+    <value>Clear selected</value>
+  </data>
+  <data name="ContextMenuStripSubscribed_AddDownQue" xml:space="preserve">
+    <value>Add to download que</value>
+  </data>
+  <data name="ContextMenuStripSubscribed_Unsubscribe" xml:space="preserve">
+    <value>Unsubscribe</value>
+  </data>
+  <data name="ContextMenuStripSubscribedPrep_Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="ContextMenuStripSubscribedPrep_ClearSelected" xml:space="preserve">
+    <value>Clear selected</value>
+  </data>
+  <data name="ContextMenuStripMain_StartSelected" xml:space="preserve">
+    <value>StartSelected</value>
+  </data>
+  <data name="ContextMenuStripMain_StartAll" xml:space="preserve">
+    <value>StartAll</value>
+  </data>
+  <data name="ContextMenuStripMain_StopSelected" xml:space="preserve">
+    <value>StopSelected</value>
+  </data>
+  <data name="ContextMenuStripMain_StopAll" xml:space="preserve">
+    <value>StopAll</value>
+  </data>
+  <data name="ContextMenuStripMain_SetCompletedFlag" xml:space="preserve">
+    <value>SetCompletedFlag</value>
+  </data>
+  <data name="ContextMenuStripMain_ResetCompletedFlag" xml:space="preserve">
+    <value>ResetCompletedFlag</value>
+  </data>
+  <data name="ContextMenuStripMain_ClearCompleted" xml:space="preserve">
+    <value>ClearCompleted</value>
+  </data>
+  <data name="ContextMenuStripMain_DeleteSelectedFromDB" xml:space="preserve">
+    <value>DeleteSelected(fromDB)</value>
+  </data>
+  <data name="ContextMenuStripMain_DeleteSelectedFromView" xml:space="preserve">
+    <value>DeleteSelected(onlyView)</value>
+  </data>
+  <data name="ContextMenuStripMain_KillSelected" xml:space="preserve">
+    <value>KillSelected</value>
+  </data>
+  <data name="ContextMenuStripMain_Args" xml:space="preserve">
+    <value>Args</value>
+  </data>
+  <data name="ContextMenuStripMain_SelectAll" xml:space="preserve">
+    <value>SelectAll</value>
+  </data>
+  <data name="ContextMenuStripMain_EditFolderName" xml:space="preserve">
+    <value>EditFolderName</value>
+  </data>
+  <data name="ContextMenuStripMain_CopyUrl" xml:space="preserve">
+    <value>CopyUrl</value>
+  </data>
+  <data name="EditFolderNameForm_Title" xml:space="preserve">
+    <value>Edit save folder name</value>
+  </data>
+  <data name="EditFolderNameForm_Name" xml:space="preserve">
+    <value>Save folder name (not full path)</value>
+  </data>
+  <data name="EditFolderNameForm_Description" xml:space="preserve">
+    <value>If subscribed item, this change will be ignored.</value>
+  </data>
+  <data name="MessageBoxInitSetting_Title" xml:space="preserve">
+    <value>Initialize Setting</value>
+  </data>
+  <data name="MessageBoxInitSetting_Text" xml:space="preserve">
+    <value>Cannot find the configuration file. Do you want to initialize the settings?</value>
+  </data>
+  <data name="MainMenu_Tooltips_StartSelected" xml:space="preserve">
+    <value>Start selected items. If the number of items being downloaded exceeds the maximum number, start downloading later.</value>
+  </data>
+  <data name="MainMenu_Tooltips_StartAll" xml:space="preserve">
+    <value>Start all items. If the number of items being downloaded exceeds the maximum number, start downloading later.</value>
+  </data>
+  <data name="MainMenu_Tooltips_StopSelected" xml:space="preserve">
+    <value>Stop selected items.</value>
+  </data>
+  <data name="MainMenu_Tooltips_StopAll" xml:space="preserve">
+    <value>Stop all items.</value>
+  </data>
+  <data name="MainMenu_Tooltips_SetCompletedFlag" xml:space="preserve">
+    <value>Set completed flag. Set this flag if you do not want to download. This flag will be stored in the database and will not be downloaded again.</value>
+  </data>
+  <data name="MainMenu_Tooltips_ResetCompletedFlag" xml:space="preserve">
+    <value>Reset completed flag. Clear this flag if you want to download again.</value>
+  </data>
+  <data name="MainMenu_Tooltips_ClearCompleted" xml:space="preserve">
+    <value>Clear completed. Remove the downloaded item from the view, not from database. You cannot download this item again, until clear completed flag.</value>
+  </data>
+  <data name="MainMenu_Tooltips_DeleteSelectedFromDB" xml:space="preserve">
+    <value>Delete selected items from DB. Remove item from the view and database. You can download item again.</value>
+  </data>
+  <data name="MainMenu_Tooltips_DeleteSelectedFromView" xml:space="preserve">
+    <value>Delete selected items from view. Remove item from the view, not from database. If item is not download completed, next time you can see this item in the view.</value>
+  </data>
+  <data name="MainMenu_Tooltips_KillSelected" xml:space="preserve">
+    <value>Kill selected. Force the download to stop.</value>
+  </data>
+  <data name="MainMenu_Tooltips_SelectAll" xml:space="preserve">
+    <value>Select all item.</value>
+  </data>
+  <data name="MainMenu_Tooltips_EditFolderName" xml:space="preserve">
+    <value>Edit folder name. Edit the output folder. If the items are subscribed and the output destination folder is set, the subscribed item settings will take priority.</value>
+  </data>
+  <data name="MainMenu_Tooltips_CopyUrl" xml:space="preserve">
+    <value>Copy URL to clipboard.</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_AddNew" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_AddNew_Title" xml:space="preserve">
+    <value>Add new arguments for yt-dlp</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="SettingForm_ArgAddNewMenu_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="SettingForm_ArgEditMenu_Title" xml:space="preserve">
+    <value>Edit arguments for yt-dlp</value>
+  </data>
+  <data name="SettingForm_SelectYtdlpExe" xml:space="preserve">
+    <value>Select yt-dlp.exe</value>
+  </data>
+  <data name="SettingForm_SelectWorkFolder" xml:space="preserve">
+    <value>Select folder for media files output.</value>
+  </data>
+  <data name="Progress_AddNew_Text" xml:space="preserve">
+    <value>Retrieve information</value>
+  </data>
+  <data name="Progress_DetectClipboard_Text" xml:space="preserve">
+    <value>Retrieve information by clipboard auto detect</value>
+  </data>
+  <data name="Progress_Subscribe_Text" xml:space="preserve">
+    <value>Retrieve information</value>
+  </data>
+  <data name="Progress_SubscribePrep_Text" xml:space="preserve">
+    <value>Retrieve information</value>
+  </data>
+
+  <data name="InvalidCommandlineOption" xml:space="preserve">
+    <value>Invalid command line args</value>
+  </data>
+
+
+</root>

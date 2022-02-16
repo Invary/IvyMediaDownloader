@@ -1,0 +1,439 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 150</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>by Paypal</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelQR2_Address.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelQR2_Address.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 9pt, style=Underline</value>
+  </data>
+  <data name="labelQR2_Address.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 595</value>
+  </data>
+  <data name="labelQR2_Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 15</value>
+  </data>
+  <data name="labelQR2_Address.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelQR2_Address.Text" xml:space="preserve">
+    <value>1FvzxYriyNDdeA12eaUGXTGSJxkzpQdxPd</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="labelQR2_Address.ToolTip" xml:space="preserve">
+    <value>Copy address to clipboard
+1FvzxYriyNDdeA12eaUGXTGSJxkzpQdxPd</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Address.Name" xml:space="preserve">
+    <value>labelQR2_Address</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Address.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Address.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelQR1_Address.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelQR1_Address.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 9pt, style=Underline</value>
+  </data>
+  <data name="labelQR1_Address.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 373</value>
+  </data>
+  <data name="labelQR1_Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 15</value>
+  </data>
+  <data name="labelQR1_Address.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelQR1_Address.Text" xml:space="preserve">
+    <value>0xCbd4355d13CEA25D87F324E9f35A075adce6507c</value>
+  </data>
+  <data name="labelQR1_Address.ToolTip" xml:space="preserve">
+    <value>Copy address to clipboard
+0xCbd4355d13CEA25D87F324E9f35A075adce6507c</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Address.Name" xml:space="preserve">
+    <value>labelQR1_Address</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Address.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Address.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelQR2_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelQR2_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 9pt, style=Bold</value>
+  </data>
+  <data name="labelQR2_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 398</value>
+  </data>
+  <data name="labelQR2_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 15</value>
+  </data>
+  <data name="labelQR2_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelQR2_Title.Text" xml:space="preserve">
+    <value>Bitcoin</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Title.Name" xml:space="preserve">
+    <value>labelQR2_Title</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Title.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;labelQR2_Title.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxQR2_Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 419</value>
+  </data>
+  <data name="textBoxQR2_Description.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxQR2_Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 173</value>
+  </data>
+  <data name="textBoxQR2_Description.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR2_Description.Name" xml:space="preserve">
+    <value>textBoxQR2_Description</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR2_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR2_Description.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR2_Description.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxQR1_Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 195</value>
+  </data>
+  <data name="textBoxQR1_Description.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxQR1_Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 173</value>
+  </data>
+  <data name="textBoxQR1_Description.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="textBoxQR1_Description.Text" xml:space="preserve">
+    <value>Binance Smart Chain
+  BNB, BUSD etc.
+
+Polygon network
+  MATIC, USDC etc.
+
+Ethereum network
+  ETH</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR1_Description.Name" xml:space="preserve">
+    <value>textBoxQR1_Description</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR1_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR1_Description.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxQR1_Description.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelQR1_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelQR1_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 9pt, style=Bold</value>
+  </data>
+  <data name="labelQR1_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 172</value>
+  </data>
+  <data name="labelQR1_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 15</value>
+  </data>
+  <data name="labelQR1_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelQR1_Title.Text" xml:space="preserve">
+    <value>Binance chain, Etherium / Polygon network</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Title.Name" xml:space="preserve">
+    <value>labelQR1_Title</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Title.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;labelQR1_Title.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="textBoxDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 57</value>
+  </data>
+  <data name="textBoxDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>If you would like to donate, please do so in the following ways.
+It's a great encouragement!</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Name" xml:space="preserve">
+    <value>textBoxDescription</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pictureBoxQR2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 416</value>
+  </data>
+  <data name="pictureBoxQR2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 176</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxQR2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxQR2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pictureBoxQR2.ToolTip" xml:space="preserve">
+    <value>Copy address to clipboard
+1FvzxYriyNDdeA12eaUGXTGSJxkzpQdxPd</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR2.Name" xml:space="preserve">
+    <value>pictureBoxQR2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR2.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureBoxQR1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 192</value>
+  </data>
+  <data name="pictureBoxQR1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 176</value>
+  </data>
+  <data name="pictureBoxQR1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxQR1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pictureBoxQR1.ToolTip" xml:space="preserve">
+    <value>Copy address to clipboard
+0xCbd4355d13CEA25D87F324E9f35A075adce6507c</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR1.Name" xml:space="preserve">
+    <value>pictureBoxQR1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR1.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxQR1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pictureBoxKofi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 97</value>
+  </data>
+  <data name="pictureBoxKofi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 50</value>
+  </data>
+  <data name="pictureBoxKofi.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxKofi.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pictureBoxKofi.ToolTip" xml:space="preserve">
+    <value>Open Ko-fi.com by browser
+</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKofi.Name" xml:space="preserve">
+    <value>pictureBoxKofi</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKofi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKofi.Parent" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKofi.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBoxDonationControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBoxDonationControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBoxDonationControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 621</value>
+  </data>
+  <data name="groupBoxDonationControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBoxDonationControl.Text" xml:space="preserve">
+    <value>Donation</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDonationControl.Name" xml:space="preserve">
+    <value>groupBoxDonationControl</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDonationControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDonationControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDonationControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 621</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DonationControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
