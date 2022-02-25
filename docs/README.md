@@ -7,7 +7,7 @@
 
 ##  Link
 
- - [Install detail](https://github.com/Invary/IvyMediaDownloader/docs/install_detail.md)
+ - [Install detail](https://github.com/Invary/IvyMediaDownloader/blob/main/docs/install_detail.md)
 
 <br />
 
