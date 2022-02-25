@@ -62,6 +62,8 @@ If you would like to donate, please send me a ko-fi or crypto. It's a great enco
 ###
 7. Start **`IvyMediaDownloader.exe`** in the installation folder.
 
+ - more [Install detail](https://github.com/Invary/IvyMediaDownloader/blob/main/docs/install_detail.md)  with screenshot.
+
 <br />
 
 
